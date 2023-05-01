@@ -46,14 +46,67 @@
         <input type="radio" name="favorite" id="react" value="react">
         
         <br>
+        <br>
         <!-- Input type submit este un buton, care atunci cand este apasat submite formularul.
         Valoarea atributului value este textul afisat pe ecran pentru buton. -->
         <input type="submit" value="Inregistreaza-te">
         <!-- O alta varianta pentru butonul de submitere este sa folosim tag-ul button. -->
         <!-- <button>Inregistreaza-te</button> -->
     </form>
-
+     <br>
     <!-- Daca butonul este in afara formularului, nu il submite. -->
     <button>Apasa-ma, sunt in afara formularului</button>
+
+
+     <!-- login form -->
+    <form>
+        <label for="firstname">First name: </label>
+        <input type="text" name="firstname" required>
+        <br>
+        <label for="lastname">Last name: </label>
+        <input type="text" name="lastname" required>
+        <br>
+        <label for="email">email: </label>
+        <input type="email" name="email" required>
+        <br>
+        <label for="password">password: </label>
+        <input type="password" name="password" required>
+        <br>
+        <input type="submit" value="Login!">
+    </form>
+
+    <hr />
+
+    <!-- complex form -->
+    <!-- <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name"><br><br>
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label> <br><br>
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="nepal">Nepal</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="4">Tyoe </textarea><br><br>
+        <label for="country-choice">Choose a country:</label>
+        <input list="country-options" id="country-choice" name="country-choice">
+        <datalist id="country-options">
+            <option value="Australia">
+            <option value="Austria">
+            <option value="America">
+            <option value="Nepal">
+        </datalist><br><br>
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="newsletter">Subscribe?</label><br><br>
+        <input type="submit" value="Submit">
+    </form> -->
+
 </body>
 </html>
