@@ -23,7 +23,8 @@
   --spacing-small: 0.5rem;
   --spacing-tiny: 0.25rem;
 
-  --mobile-logo-height: 45px;
+  /* new */
+  --mobile-logo-height: 45px; 
 }
 
 /* Resetam proprietatile default */
@@ -52,12 +53,12 @@ a {
 }
 
 /* Necesar pentru mobil */
-input[type="submit"] {
+/* input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   opacity: 1;
-}
+} */
 
 /* Adaugam proprietati legate de font */
 body {
@@ -112,7 +113,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  min-height: 100vh;
+ /* min-height: 100vh; */
 }
 
 main {
